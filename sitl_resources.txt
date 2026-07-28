@@ -1,1 +1,2 @@
-
+https://ardupilot.org/dev/docs/building-setup-linux.html#building-setup-linux - Sets up the complete ardupilot build environment on Linux. Do this before everything else. (I personally set it up on WSL Ubuntu LTS 24.04)
+https://ardupilot.org/dev/docs/setting-up-sitl-on-linux.html - Setup and launching of SITL including the WAF build that comes with it, please do the 'setting up build resources before doing this step'
