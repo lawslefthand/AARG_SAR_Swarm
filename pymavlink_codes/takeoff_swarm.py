@@ -6,6 +6,16 @@ from utilities.wait_for_position_aiding import wait_until_position_aiding
 from utilities.get_autopilot_info import get_autopilot_info
 import time
 
+SITL 1
+sim_vehicle.py -v Copter --console --map -w --out=127.0.0.1:14550 --sysid=1
+
+SITL 2
+sim_vehicle.py -v Copter --console --map -w --out=127.0.0.1:14551 --sysid=2
+
+SITL 3
+sim_vehicle.py -v Copter --console --map -w --out=127.0.0.1:14552 --sysid=3
+
+
 # FOR SITL ONLY, Mav auto incremented Sys ID for Swarm of 3 drones
 sysid_1 = 1
 sysid_2 = 2
