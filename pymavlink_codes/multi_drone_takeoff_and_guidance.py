@@ -9,6 +9,7 @@ import threading
 
 '''
 Use these for launching SITL, In three different terminal windows of Ubuntu ( 3 different instances)
+Replace with your device specific IPs
 
 sim_vehicle.py -v Copter -I0 --console --map -w \
 -l -35.363243768,149.165231300,584,0 \
